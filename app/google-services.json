@@ -1,0 +1,52 @@
+{
+  "project_info": {
+    "project_number": "851039276078",
+    "firebase_url": "https://dogwood-harmony-236311.firebaseio.com",
+    "project_id": "dogwood-harmony-236311",
+    "storage_bucket": "dogwood-harmony-236311.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851039276078:android:40c07faed68986d4",
+        "android_client_info": {
+          "package_name": "com.example.dresscode"
+        }
+      },
+      "oauth_client": [
+        {
+          //CHANGE CLIENT_ID HERE
+          "client_id": "851039276078-r6im0cfodcm872h2o100784vo23huns2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            //CHANGE PACKAGE NAME HERE IF NEEDED
+            "package_name": "com.example.dresscode",
+            "certificate_hash": "2e26e09bebfc5055e037ed0666cb32f184dc1059"
+          }
+        },
+        {
+          //CHANGE CLIENT_ID HERE
+          "client_id": "851039276078-7bvhnhjhqn9vt090pt5e9chbmgg8v2pk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbhVS-h1zc4ir5FylCGu7igwLl-tMF0Yc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              //CHANGE CLIENT_ID HERE
+              "client_id": "851039276078-7bvhnhjhqn9vt090pt5e9chbmgg8v2pk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

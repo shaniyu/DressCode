@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <CheckBox
+            android:id="@+id/list_view_item_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:width="30dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:visibility="visible" />
+        <!--android:layout_weight="10"-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="80"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <ImageView
+                android:id="@+id/list_view_set_image1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="33"
+                android:padding="8dp"
+                app:srcCompat="@drawable/showallclothes" />
+
+            <ImageView
+                android:id="@+id/list_view_set_image2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="33"
+                android:padding="8dp"
+                app:srcCompat="@drawable/showallclothes" />
+
+            <ImageView
+                android:id="@+id/list_view_set_image3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="33"
+                android:padding="8dp"
+                app:srcCompat="@drawable/showallclothes" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

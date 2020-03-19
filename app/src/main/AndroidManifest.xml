@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dresscode">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/circle_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ErrorPage"></activity>
+        <activity android:name=".aboutUsPage" />
+        <activity
+            android:name=".filterSetsDialog"
+            android:label="@string/title_activity_filter_sets_dialog"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ChooseItemsForSet" />
+        <activity android:name=".RemoveItems" />
+        <activity android:name=".showSetsAccordingToWeather" />
+        <activity android:name=".viewItem" /> <!-- for qr vertical direction -->
+        <activity
+            android:name=".AnyOrientationCaptureActivity"
+            android:screenOrientation="fullSensor"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".showAllClothes"
+            android:label="@string/title_activity_show_all_clothes"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".loginPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChooseSetsToAddItemTo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".manageSet"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChooseSetsToDelete"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignUp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".newItemPage"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".homePageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".showAllSets"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SettingsPage"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

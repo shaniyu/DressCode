@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+    <!--android:focusable="false"-->
+    <!--android:focusableInTouchMode="false"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <!--<CheckBox-->
+            <!--android:id="@+id/list_view_item_checkbox"-->
+            <!--android:layout_weight="0"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:focusable="false"-->
+            <!--android:focusableInTouchMode="false"-->
+            <!--android:visibility="visible"/>-->
+        <!--&lt;!&ndash;android:width="0dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_alignParentLeft="true"/>&ndash;&gt;-->
+
+
+        <ImageView
+            android:id="@+id/list_view_item_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="100"
+            app:srcCompat="@drawable/showallclothes" />
+
+    </LinearLayout>
+
+</LinearLayout>

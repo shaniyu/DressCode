@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DressCode</string>
+
+    <string name="title_activity_add_new_item_page">addNewItemPage</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_show_all_clothes">showAllClothes</string>
+    <string name="discard">ItemListViewAdapter</string>
+    <string name="create_new_set">ItemListViewAdapter</string>
+    <string name="filter_set">showAllSets</string>
+    <string name="title_activity_filter_sets_dialog">filterSetsDialog</string>
+    <string name="title_activity_home_page_with_navigator">homePageWithNavigator</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+</resources>

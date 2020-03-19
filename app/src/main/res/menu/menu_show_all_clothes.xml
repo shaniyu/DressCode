@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sartainstudios.contacts.ContactsView">
+
+    <item
+        android:id="@+id/order_spinner"
+        android:background="#7EBDAD"
+        android:title="Order by"
+        app:actionViewClass="android.widget.Spinner"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_filter_items"
+        android:icon="@drawable/filter"
+        android:title="@string/filter_set"
+        app:showAsAction="always" />
+
+</menu>
+
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+    <!--android:focusable="false"-->
+    <!--android:focusableInTouchMode="false"-->
+
+    <ImageView
+        android:id="@+id/list_view_item_image_in_set"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_weight="100"
+        app:srcCompat="@drawable/showallclothes" />
+
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_weight="100"
+        android:background="@drawable/buttonshape"
+        android:layout_marginTop="30dp"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Delete"
+        android:textAllCaps="false"
+        android:textColor="#3868C7"
+        android:textSize="15sp" />
+    <!--android:onClick="customClickHandler"/>-->
+    <!---->
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:weightSum="100">-->
+
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>
