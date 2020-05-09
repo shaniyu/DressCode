@@ -12,11 +12,12 @@
 
 # DressCode android app
 
-> Closet organizer android application.
+> Closet organizer android application. <br />
 The app has the ability to help its users manage their clothes by scanning a QR code label on
 them. <br />
 By scanning the QR code on the item- the user can mark it as 'out of the closet' or as 'returned to closet' and edit many other details on it.<br /> 
-The user can look for the item in the app and see if it's in the closet, if so on what shelf, when was it last washed and much more. 
+The user can also look for the item in the app and see if it's in the closet, if so on what shelf, when was it last washed and much more. <br />
+The app can also suggest sets of clothes to the user according to the user's location (configured in settings). <br />
 The app uses the following technologies- Microsoft SQL Server 2019, REST API, Google Firebase, XML.
 
 <!-- > include terms/tags that can be searched -->
@@ -101,13 +102,13 @@ let generateProject = project => {
 
 ## Installation
 
-- Clone the repository to your local machine
+- Clone the repository to your local machine.
 
-- Open the project in Android Studio
+- Open the project in Android Studio.
 
 - Plug your smartphone to your PC and make sure you can see it in the device dropdown next to the 'Run' button.
 
-- Make sure you have the developers option enabled on your smartphone (this process varies between different android devices).
+- Make sure you have the 'developers options' enabled on your smartphone (this process varies between different android devices).
 
 - Choose your device and click on the 'Run' button. Enable the installation on your smartphone.
 
