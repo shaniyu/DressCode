@@ -10,11 +10,14 @@
 
 <!--***INSERT GRAPHIC HERE (include hyperlink in image)***-->
 
-# Magit web app
+# DressCode android app
 
-> the app functions similar to git, includes features such as commit, clone, pull, push, pull requests, merge, fetch,
-branch managing, load and export repositories using XML. <br />
-The web app was developed using JavaScript, HTML, CSS, JQuery and web services via Apache Tomcat.
+> Closet organizer android application.
+The app has the ability to help its users manage their clothes by scanning a QR code label on
+them. <br />
+By scanning the QR code on the item- the user can mark it as 'out of the closet' or as 'returned to closet' and edit many other details on it.<br /> 
+The user can look for the item in the app and see if it's in the closet, if so on what shelf, when was it last washed and much more. 
+The app uses the following technologies- Microsoft SQL Server 2019, REST API, Google Firebase, XML.
 
 <!-- > include terms/tags that can be searched -->
 
@@ -94,44 +97,27 @@ let generateProject = project => {
 
 ## Clone
 
-- Clone this repo to your local machine using `https://github.com/shaniyu/MAGit-WebApp.git`
+- Clone this repo to your local machine using `https://github.com/shaniyu/DressCode.git`
 
 ## Installation
 
 - Clone the repository to your local machine
 
-- Download tomcat from https://tomcat.apache.org/download-80.cgi. <br /> 
-Pay attention that you are downloading tomcat 8.5.x ! <br />
-Select the zip version suitable for your machine (windows\mac ...)
+- Open the project in Android Studio
 
-## Setup
+- Plug your smartphone to your PC and make sure you can see it in the device dropdown next to the 'Run' button.
 
-- Unzip the tomcat zip file to any folder you like (e.g. c:\tomcat) <br />
-Navigate to c:\tomcat\conf\tomcat-users.xml and open it <br />
-Add the below lines (within the <tomcat-users> element):
+- Make sure you have the developers option enabled on your smartphone (this process varies between different android devices).
 
-``` XML
-<role rolename="manager-gui"/>
-<role rolename="admin-gui"/>
-<user username="tomcat" password="tomcat" roles="manager-gui,admin-gui"/>
-``` 
-
-Save the file
-
-- Drop the .WAR file in the root folder of the project inside C:\tomcats\webapps
-
-- Start tomcat by invoking c:\tomcats\bin\startup.bat
-
-- Open your browser (currently supported on chrome) and navigate to:
-http://localhost:8080/magit
-
-- To start using Magit by loading an existing repository (rather than creating an empty repository), you can use the example xml file [exampleRepository.xml](https://github.com/shaniyu/MAGit-WebApp/blob/master/exampleRepository.xml)
-
----
+- Choose your device and click on the 'Run' button. Enable the installation on your smartphone.
 
 ## Features
 
-- commit, clone, pull, push, merge, fetch, branch managing (creation and deletion), load and export repositories using XML.
+- Add new clothing item (scan QR code, fill all details about this item and upload an image of it).
+- Create a new set of clothes.
+- Remove clothing items.
+- Get a suggestion of sets to wear according to the weather in your configured location.
+- Scan an existing clothing item in order to view it or edit its details.
 
 ---
 
