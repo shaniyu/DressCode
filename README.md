@@ -1,9 +1,9 @@
-<a><img src="https://github.com/shaniyu/DressCode/blob/master/Images/filterClothes.png" width="250" height="250" title="filterClothes"></a>
-<a><img src="https://github.com/shaniyu/DressCode/blob/master/Images/homePage.png" width="250" height="250" title="homePage"></a>
-<a><img src="https://github.com/shaniyu/DressCode/blob/master/Images/myClothes.png" width="250" height="250" title="myClothes"></a>
-<a><img src="https://github.com/shaniyu/DressCode/blob/master/Images/mySets.png" width="250" height="250" title="mySets"></a>
-<a><img src="https://github.com/shaniyu/DressCode/blob/master/Images/setsForCurrentWeather.png" width="250" height="250" title="setsForCurrentWeather"></a>
-<a><img src="https://github.com/shaniyu/DressCode/blob/master/Images/sideMenu.png" width="250" height="250" title="sideMenu"></a>
+<a><img src="https://github.com/shaniyu/DressCode/blob/master/Images/filterClothes.png" width="250" height="400" title="filterClothes"></a>
+<a><img src="https://github.com/shaniyu/DressCode/blob/master/Images/homePage.png" width="250" height="400" title="homePage"></a>
+<a><img src="https://github.com/shaniyu/DressCode/blob/master/Images/myClothes.png" width="250" height="400" title="myClothes"></a>
+<a><img src="https://github.com/shaniyu/DressCode/blob/master/Images/mySets.png" width="250" height="400" title="mySets"></a>
+<a><img src="https://github.com/shaniyu/DressCode/blob/master/Images/setsForCurrentWeather.png" width="250" height="400" title="setsForCurrentWeather"></a>
+<a><img src="https://github.com/shaniyu/DressCode/blob/master/Images/sideMenu.png" width="250" height="400" title="sideMenu"></a>
 
 
 <!-- [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) -->
